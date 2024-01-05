@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <Title>K-Means Image Color Reducer</Title>
+    <Authors>ManuelKlaer</Authors>
+    <Description>A simple image color reducer using the k-means clustering algorithm</Description>
+    <Copyright>ManuelKlaer</Copyright>
+    <PackageTags>k-means,clustering,algorithm,image,color,reduce</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="42Entwickler.ImageLib.Basic" Version="0.1.2" />
+    <PackageReference Include="DarkNet" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Win32.SystemEvents" Version="8.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
