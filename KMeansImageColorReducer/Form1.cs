@@ -2,7 +2,7 @@ using System.ComponentModel;
 using _42Entwickler.ImageLib;
 using Dark.Net;
 
-namespace KMeansImageCompression;
+namespace KMeansImageColorReducer;
 
 /// <summary>
 ///     Main-Window

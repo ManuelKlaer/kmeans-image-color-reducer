@@ -1,4 +1,4 @@
-﻿namespace KMeansImageCompression;
+﻿namespace KMeansImageColorReducer;
 
 public static class ColorUtils
 {

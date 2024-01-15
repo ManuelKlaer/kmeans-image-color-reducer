@@ -1,4 +1,4 @@
-﻿namespace KMeansImageCompression;
+﻿namespace KMeansImageColorReducer;
 
 /// <summary>
 ///     Struct to store pixel color values.

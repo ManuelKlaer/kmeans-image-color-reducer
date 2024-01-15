@@ -1,6 +1,6 @@
 ﻿using Dark.Net;
 
-namespace KMeansImageCompression;
+namespace KMeansImageColorReducer;
 
 /// <summary>
 ///     ColorReducerSettings-Dialog

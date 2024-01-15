@@ -1,6 +1,8 @@
 using Dark.Net;
 
-namespace KMeansImageCompression;
+// ReSharper disable MemberCanBePrivate.Global
+
+namespace KMeansImageColorReducer;
 
 /// <summary>
 ///     Entrypoint for this application and settings.

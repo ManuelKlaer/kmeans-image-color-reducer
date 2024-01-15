@@ -1,4 +1,4 @@
-﻿namespace KMeansImageCompression;
+﻿namespace KMeansImageColorReducer;
 
 /// <summary>
 ///     Custom Windows progress bar with color support.

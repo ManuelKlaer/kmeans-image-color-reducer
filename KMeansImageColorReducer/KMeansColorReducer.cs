@@ -1,4 +1,4 @@
-﻿namespace KMeansImageCompression;
+﻿namespace KMeansImageColorReducer;
 
 /// <summary>
 ///     Image color reducer using the k-means algorithm.

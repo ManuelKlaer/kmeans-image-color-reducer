@@ -1,4 +1,4 @@
-﻿namespace KMeansImageCompression
+﻿namespace KMeansImageColorReducer
 {
     partial class ColorReducerDialog
     {
